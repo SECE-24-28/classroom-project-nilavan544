@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Orchid Resorts</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('hotelbg.jpg') center/cover no-repeat;
+            height: 100vh;
+            color: white;
+        }
+
+        header {
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(6px);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+            color: #f3c56b;    /* GOLD COLOR */
+            letter-spacing: 1px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #f3c56b;
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #d9a64c;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 160px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #f3c56b;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 10px 0;
+            background: rgba(0,0,0,0.7);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Royal Orchid Resorts</h1>
+    <button class="btn" onclick="window.location.href='login.html'">Login</button>
+</header>
+
+<div class="hero">
+    <h2>Relax • Refresh • Reconnect</h2>
+    <p>Your comfort is our priority.</p>
+</div>
+
+<footer>
+    © 2025 Royal Orchid Group
+</footer>
+
+</body>
+</html>
